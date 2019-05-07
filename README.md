@@ -1,9 +1,41 @@
-# demo_csdn
-this is demo for csdn
-# csdn blog
-* [（七十七）getSystemService内存泄露探讨](https://github.com/happyjiatai/demo_csdn/wiki/%EF%BC%88%E4%B8%83%E5%8D%81%E4%B8%83%EF%BC%89getSystemService%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2%E6%8E%A2%E8%AE%A8)
-* [（七十六） CountDownTimer](https://github.com/happyjiatai/demo_csdn/wiki/%EF%BC%88%E4%B8%83%E5%8D%81%E5%85%AD%EF%BC%89-CountDownTimer)
-* [（七十五）关于java &amp;&amp; 和 || 优先级的探讨](https://github.com/happyjiatai/demo_csdn/wiki/%EF%BC%88%E4%B8%83%E5%8D%81%E4%BA%94%EF%BC%89%E5%85%B3%E4%BA%8Ejava-&amp;&amp;-%E5%92%8C-%7C%7C-%E4%BC%98%E5%85%88%E7%BA%A7%E7%9A%84%E6%8E%A2%E8%AE%A8)
+# android-demos ——2019
 
+
+## 已做
+* demo_7_handler:
+        StrictMode;Leakcanary;Handler
+    * HandlerIsWhoseActivity:Handler的handleMessage执行在关联在handler的
+    线程中。
+    * MainActivity : 测试如果退出程序Leakcanary检查到内存泄漏。
+
+* demo_102_WebViewViewPagerScrolling_kotlin：
+一个ViewPager，它内部包含了WebView，而内部的webview加载了一个可以滑动的网页。
+当我们在网页滑动的时候，会直接切换到下一个viewpager的页面，而不是优先响应webview的滑动。
 
 * demo_69_service [参考博客](https://blog.csdn.net/sinat_20059415/article/details/81039085)
+
+## 待做
+* [ ] demo_5_handlerthread_intentservice
+* [ ] AsyncTask
+* [ ] Binder
+* [ ] aidl
+* [ ] OrderedBroadcast
+* [ ] bindService
+* [ ] 自定义View，dispatchTouchEvent，onlnterceptTouchEvent
+* [ ] RecycleBin
+* [ ] proguard
+* [ ] okhttp
+* [ ] retrofit
+* [ ] volley
+* [ ] butterknife
+* [ ] glide
+* [ ] mvp
+* [ ] mvvm
+* [ ] 组件化
+* [ ] 插件化
+* [ ] 热更新
+* [ ] 进程保活
+* [ ] java反射
+* [ ] 注释
+* [ ] 动画
+* [ ]
